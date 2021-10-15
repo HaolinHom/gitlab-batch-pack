@@ -15,7 +15,7 @@ heyoo install gitlab-batch-pack
 ## Usage
 
 ```shell
-hey git-dl
+hey gitlab
 ```
 
 Follow the prompts to enter the GitLab address and Personal Access Token(PAT):
