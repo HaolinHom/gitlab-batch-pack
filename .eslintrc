@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2021": true,
+    "es6": true
+  },
+  "extends": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "no-nested-ternary": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "curly": "error",
+    "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+    "computed-property-spacing": ["error", "never"],
+    "func-call-spacing": ["error", "never"],
+    "linebreak-style": ["error", "unix"],
+    "no-eval": "error"
+  }
+}
