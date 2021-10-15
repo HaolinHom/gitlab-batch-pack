@@ -3,8 +3,8 @@ import { command } from './types';
 
 export default [
   {
-    command: 'git-dl',
+    command: 'gitlab',
     action: download,
-    description: 'Use for batch download of gitlab repo.',
+    description: 'Use for batch pack and download of gitlab repo.',
   },
 ] as command[];
