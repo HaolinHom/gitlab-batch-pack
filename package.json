@@ -1,6 +1,6 @@
 {
   "name": "gitlab-batch-pack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A heyoo plugins for batch pack and download of gitlab repo",
   "type": "module",
   "exports": "./bin/index.js",
