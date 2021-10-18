@@ -9,7 +9,7 @@ Support GitLab api v4.
 Must install [heyoo](https://github.com/hey-yoo/heyoo#installation) first!
 
 ```shell
-heyoo install gitlab-batch-pack
+hey install gitlab-batch-pack
 ```
 
 ## Usage
